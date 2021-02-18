@@ -12,7 +12,7 @@ passport.deserializeUser(function(user, done) {
 passport.use(new GoogleStrategy(
   {
     clientID:"300206585665-vpf4q2kjko4f3e5c15q8d6jad57lenvc.apps.googleusercontent.com",
-    clientSecret: 'ISSOAQNAODAPRAMOSTRARAMIGAOOUDASEILACOMOFUNCIONAISSOTOAPRENDENDOAINDA',
+    clientSecret: 'your-secret-key',
     callbackURL: "http://ww.localhost:3000/google/callback"
   },
   function(accessToken, refreshToken, profile, done) {
